@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-LearnJpaAndHibernateApplication<learn-jpa-and-hibernate>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.springboot.learnjpaandhibernate.LearnJpaAndHibernateApplication",
+            "projectName": "learn-jpa-and-hibernate",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
