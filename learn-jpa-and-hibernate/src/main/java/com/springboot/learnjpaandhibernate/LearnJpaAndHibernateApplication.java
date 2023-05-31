@@ -19,3 +19,11 @@ public class LearnJpaAndHibernateApplication {
 // Spring JDBC:
 // -> Write a lot of SQL queries
 // -> But lesser java code
+
+// Spring JPA:
+// -> Do NOT worry about queries
+// -> Just Map Entities to Tables
+
+// Spring Data JPA:
+// -> Lets make JPA even more simpler
+// -> I will take care of everything (forget about entity manager)
