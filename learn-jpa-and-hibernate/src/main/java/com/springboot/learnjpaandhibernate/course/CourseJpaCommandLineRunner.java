@@ -1,13 +1,13 @@
-package com.springboot.learnjpaandhibernate.course.jdbc;
+package com.springboot.learnjpaandhibernate.course;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-import com.springboot.learnjpaandhibernate.course.Course;
+import com.springboot.learnjpaandhibernate.course.jdbc.CourseJdbcRepository;
 
 @Component
-public class CourseJdbcCommandLineRunner implements CommandLineRunner  {
+public class CourseJpaCommandLineRunner implements CommandLineRunner  {
 
     @Autowired
     private CourseJdbcRepository repository;
@@ -20,6 +20,7 @@ public class CourseJdbcCommandLineRunner implements CommandLineRunner  {
         repository.insert(new Course(3, "Learn DBMS", "Bhaskar Bhakat"));
         repository.deleteByID(3);
         System.out.println(repository.findByID(2));
+
 
     }
     
